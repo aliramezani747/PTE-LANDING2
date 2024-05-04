@@ -1,0 +1,459 @@
+body {
+    margin: 0px;
+    direction: rtl;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./font/IRANSansX-Regular.woff') format('woff');
+    font-size: 16px;
+
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0px auto;
+    font-family: 'MyCustomFont';
+}
+
+
+.main-container .back {
+    background-image: url(./img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 0px 0px 50px 50px;
+    justify-content: center;
+}
+
+.main-container .back .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3% 3% 3%;
+}
+
+
+.main-container .back .season {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 7%;
+}
+
+.main-container .back .text1 {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.1vw;
+}
+
+
+.main-container .back .button1 {
+    padding: 0%;
+    border-radius: 10px;
+    background-color: #bb1613;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    padding: 2px 10px;
+    border: 0px;
+    font-size: 2vw;
+}
+
+.main-container .back .button2 {
+    padding: 0%;
+    border-radius: 10px;
+    background-color: #286444;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    padding: 2px 18px;
+    border: 0px;
+    font-size: 2vw;
+}
+
+
+main .second {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 3% 10%;
+    padding: 0px;
+}
+
+main .second .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .second  p {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+main .third div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 2% 4%;
+}
+
+main .third .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .third  p {
+    color: #000;
+    text-align: center;
+    padding: 0% 13%;
+}
+
+main .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slogan p {
+    font-size: 2vm;
+    color: #000;
+    font-weight: bold;
+}
+
+main .slogan span {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+main .Fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #E9E8EB;
+}
+
+main .Fourth .cards {
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #FFFF;
+    padding: 15pX;
+    border-radius: 15px;
+}
+
+main .Fourth div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1%;
+}
+
+main .Fourth button {
+    font-family: 'MyCustomFont';
+    background-color: #bb1613;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+main .Fourth div p {
+    background-color: #E9E8EB;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+main .Fourth p {
+    background-color: #FFFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 3%;
+}
+
+main .fifth {
+    background-color: #ffffff ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main .fifth .text {
+    font-size: 2evm;
+    font-weight: bold;
+}
+
+main .fifth .form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    padding: 0px;
+    margin-right: 15%;
+    text-align: right;
+}
+
+main  .fifth .form input {
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 65%;
+    padding: 10px 10px;
+    margin: 2% 2%;
+    background-color: #F5F5F5;
+}
+
+main .fifth .button4 {
+    padding: 0%;
+    border-radius: 30px;
+    background-color: #286444;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    padding: 2px 18px;
+    border: 0px;
+    padding: 8px 15px;
+    margin-top: 1%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff ;
+    margin: 0% 3%;
+}
+
+footer p {
+    background-color: #bb1613;
+    color: #ffffff;
+    padding: 1% 10%;
+    border-radius: 0px 0px 30px 30px;
+    text-align: center;
+    font-family: 'MyCustomFont';
+}
+
+/* media query */
+
+    .main-container {width: 100%;}
+
+    .main-container  .image0  {width: 10%;}
+    .main-container .back {height: 950px;}
+
+    main .first .text1 {background-size: 100% 100%;}
+
+    main .second .image2 {width: 30%;}
+    main .second .text2 {font-size: 1.2em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 1.3em;}
+    main .slogan p {font-size: 1.8em;}
+
+    main .Fourth .image5 {width: 20%;}
+    main .Fourth .text4 {font-size: 1.1em;}
+
+    footer p {font-size: 1.3em;}
+
+
+@media screen and (max-width:1600px){
+    .main-container {width: 100%;}
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 750px;}
+
+
+
+    main .first .image1 {width: 80%;}
+    main .first .text1
+
+
+    main .second .image2 {width: 30%;}
+    main .second .text2 {font-size: 1.2em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 1.3em;}
+    main .slogan p {font-size: 1.6em;}
+
+    main .Fourth .image5 {width: 20%;}
+    main .Fourth .text4 {font-size: 1.1em;}
+
+    footer p {font-size: 1.3em;}
+
+
+    .main-container .text {font-size: 1.2em;}
+    .main-container .btn {font-size: 1.5em;}
+}
+@media screen and (max-width:1200px){
+    .main-container {width: 100%;}
+
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 750px;}
+
+
+    main .first .image1 {width: 80%;}
+
+
+    main .second .image2 {width: 30%;}
+    main .second .text2 {font-size: 1.1em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 1.1em;}
+    main .slogan p {font-size: 1.4em;}
+
+
+    main .Fourth .image5 {width: 20%;}
+    main .Fourth .text4 {font-size: 1.3em;}
+
+    footer p {font-size: 1.3em;}
+
+
+    .main-container .image {width: 80%;}
+    .main-container .text {font-size: 1.2em;}
+    .main-container .btn {font-size: 1.2em;}
+}
+
+@media screen and (max-width:960px){
+    .main-container {width: 100%;}
+
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 650px;}
+    
+
+    main .first .image1 {width: 80%;}
+
+
+    main .second .image2 {width: 30%;}
+    main .second .text2 {font-size: 0.8em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 0.7em;}
+    main .slogan p {font-size: 0.9em;}
+
+    main .Fourth .image5 {width: 20%;}
+    main .Fourth .text4 {font-size: 0.9em;}
+
+    footer p {font-size: 0.9em;}
+
+
+
+    .main-container .image {width: 80%;}
+    .main-container .text {font-size: 1.2em;}
+    .main-container .btn {font-size: 1em;}
+}
+
+@media screen and (max-width:720px){
+    .main-container {width: 100%;}
+
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 450px}
+    
+
+    main .first .image1 {width: 80%;}
+
+
+    main .second .image2 {width: 30%;}
+    main .second .text2 {font-size: 0.6em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 0.7em;}
+    main .slogan p {font-size: 0.9em;}
+
+    main .Fourth .image5 {width: 20%;}
+    main .Fourth .text4 {font-size: 0.8em;}
+
+    footer p {font-size: 0.7em;}
+
+
+
+    .main-container .image {width: 100%}
+    .main-container .text {font-size: 1.2em;}
+    .main-container .btn {font-size: 0.8em;}
+}
+
+@media screen and (max-width:480px){
+    .main-container {width: 100%;}
+
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 300px;}
+    
+
+    main .first .image1 {width: 80%;}
+
+
+    main .second .image2 {width: 40%;}
+    main .second .text2 {font-size: 0.4em;}
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 0.5em;}
+    main .slogan p {font-size: 0.8em;}
+
+    main .Fourth .image5 {width: 35%;}
+    main .Fourth .text4 {font-size: 0.7em;}
+
+    footer p {font-size: 0.7em;}
+
+
+
+    .main-container .image {width : 100%;}
+    .main-container .text {font-size: 0.8em;}
+    .main-container .btn {font-size: 0.7em;}
+    main .Fourth .cards {width: 40%;}
+}
+
+@media screen and (max-width:300px){
+    .main-container {width: 100%;}
+
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 200px;}
+    
+
+    main .first .image1 {width: 80%;}
+
+
+    main .second .image2 {width: 80%;}
+    main .second .text2 {font-size: 0.4em;}
+
+
+    main .third .image3 {width: 15%;}
+    main .third .image4 {width: 65%;}
+    main .third .text3 {font-size: 0.5em;}
+    main .slogan p {font-size: 0.8em;}
+
+    main .Fourth .image5 {width: 40%;}
+    main .Fourth .text4 {font-size: 0.9em;}
+
+
+    footer p {font-size: 0.5em;}
+
+
+
+    .main-container .image {width : 100%;}
+    .main-container .text {font-size: 1em;}
+    .main-container .btn {font-size: 0.5em;}
+    main .Fourth .cards {width: 40%;}
+    
+}
