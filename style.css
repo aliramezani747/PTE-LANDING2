@@ -40,6 +40,7 @@ body {
     flex-direction: column;
     align-items: end;
     margin-left: 7%;
+    margin-top: 15%;
 }
 
 .main-container .back .text1 {
@@ -49,7 +50,6 @@ body {
     padding: 0px;
     font-size: 2.1vw;
 }
-
 
 .main-container .back .button1 {
     padding: 0%;
@@ -216,6 +216,10 @@ main  .fifth .form input {
     background-color: #F5F5F5;
 }
 
+main .fifth .form label {
+    margin-right:20px;
+}
+
 main .fifth .button4 {
     padding: 0%;
     border-radius: 30px;
@@ -251,7 +255,7 @@ footer p {
     .main-container {width: 100%;}
 
     .main-container  .image0  {width: 10%;}
-    .main-container .back {height: 950px;}
+    .main-container .back {height: 900px;}
 
     main .first .text1 {background-size: 100% 100%;}
 
@@ -303,7 +307,7 @@ footer p {
 
 
     header .image0  {width: 10%;}
-    .main-container .back {height: 750px;}
+    .main-container .back {height: 650px;}
 
 
     main .first .image1 {width: 80%;}
@@ -334,7 +338,7 @@ footer p {
 
 
     header .image0  {width: 10%;}
-    .main-container .back {height: 650px;}
+    .main-container .back {height: 500px;}
     
 
     main .first .image1 {width: 80%;}
@@ -365,7 +369,7 @@ footer p {
 
 
     header .image0 {width: 10%;}
-    .main-container .back {height: 450px}
+    .main-container .back {height: 350px}
     
 
     main .first .image1 {width: 80%;}
@@ -396,7 +400,8 @@ footer p {
 
 
     header .image0 {width: 10%;}
-    .main-container .back {height: 300px;}
+    .main-container .back {height: 250px;}
+    .main-container .back .season {margin-top: 22%;}
     
 
     main .first .image1 {width: 80%;}
@@ -406,12 +411,13 @@ footer p {
     main .second .text2 {font-size: 0.4em;}
 
     main .third .image3 {width: 15%;}
-    main .third .image4 {width: 65%;}
+    main .third .image4 {width: 90%;}
     main .third .text3 {font-size: 0.5em;}
     main .slogan p {font-size: 0.8em;}
 
     main .Fourth .image5 {width: 35%;}
     main .Fourth .text4 {font-size: 0.7em;}
+    main .fifth .form label {margin-right:15px;}
 
     footer p {font-size: 0.7em;}
 
@@ -428,7 +434,8 @@ footer p {
 
 
     header .image0 {width: 10%;}
-    .main-container .back {height: 200px;}
+    .main-container .back {height: 150px;}
+    .main-container .back .season {margin-top: 22%;}
     
 
     main .first .image1 {width: 80%;}
@@ -439,13 +446,14 @@ footer p {
 
 
     main .third .image3 {width: 15%;}
-    main .third .image4 {width: 65%;}
+    main .third .image4 {width: 80%;}
     main .third .text3 {font-size: 0.5em;}
     main .slogan p {font-size: 0.8em;}
 
     main .Fourth .image5 {width: 40%;}
     main .Fourth .text4 {font-size: 0.9em;}
 
+    main .fifth .form label {margin-right:15px;}
 
     footer p {font-size: 0.5em;}
 
