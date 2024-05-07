@@ -255,7 +255,7 @@ footer p {
     .main-container {width: 100%;}
 
     .main-container  .image0  {width: 10%;}
-    .main-container .back {height: 900px;}
+    .main-container .back {height: 850px;}
 
     main .first .text1 {background-size: 100% 100%;}
 
@@ -277,7 +277,7 @@ footer p {
     .main-container {width: 100%;}
 
     header .image0  {width: 10%;}
-    .main-container .back {height: 750px;}
+    .main-container .back {height: 700px;}
 
 
 
@@ -307,7 +307,7 @@ footer p {
 
 
     header .image0  {width: 10%;}
-    .main-container .back {height: 650px;}
+    .main-container .back {height: 600px;}
 
 
     main .first .image1 {width: 80%;}
@@ -338,7 +338,7 @@ footer p {
 
 
     header .image0  {width: 10%;}
-    .main-container .back {height: 500px;}
+    .main-container .back {height: 450px;}
     
 
     main .first .image1 {width: 80%;}
@@ -369,7 +369,7 @@ footer p {
 
 
     header .image0 {width: 10%;}
-    .main-container .back {height: 350px}
+    .main-container .back {height: 300px}
     
 
     main .first .image1 {width: 80%;}
@@ -417,7 +417,7 @@ footer p {
 
     main .Fourth .image5 {width: 35%;}
     main .Fourth .text4 {font-size: 0.7em;}
-    main .fifth .form label {margin-right:15px;}
+    
 
     footer p {font-size: 0.7em;}
 
@@ -452,8 +452,6 @@ footer p {
 
     main .Fourth .image5 {width: 40%;}
     main .Fourth .text4 {font-size: 0.9em;}
-
-    main .fifth .form label {margin-right:15px;}
 
     footer p {font-size: 0.5em;}
 
