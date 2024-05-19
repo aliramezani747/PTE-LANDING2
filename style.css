@@ -2,7 +2,10 @@ body {
     margin: 0px;
     direction: rtl;
     font-size: 16px;
-    scroll-behavior: auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -61,6 +64,7 @@ body {
     padding: 2px 10px;
     border: 0px;
     font-size: 2vw;
+    scroll-behavior: smooth;
     text-decoration: none;
 }
 
