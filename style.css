@@ -4,6 +4,10 @@ body {
     font-size: 16px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'MyCustomFont';
     src: url('./font/IRANSansX-Regular.woff') format('woff');
@@ -60,6 +64,8 @@ body {
     padding: 2px 10px;
     border: 0px;
     font-size: 2vw;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 .main-container .back .button2 {
@@ -71,6 +77,7 @@ body {
     padding: 2px 18px;
     border: 0px;
     font-size: 2vw;
+    text-decoration: none;
 }
 
 
