@@ -17,8 +17,8 @@
             <div class="season">
                 <p class="text1"> جشنواره اینترنت TD-LTE پیشگامان </p>
                 <div class="btns">
-                    <button class="button2 btn">ثبت نام</button>
-                    <button class="button1 btn">اطلاعات بیشتر</button>
+                    <button class="button2 btn" id="scrollButton">ثبت نام</button>
+                    <button class="button1 btn" id="scrollButton">اطلاعات بیشتر</button>
                 </div>
             </div>
         </div>
@@ -71,12 +71,12 @@
                        </div>
                     </div>      
             </section>
-            <section class="slogan">
+            <section>
                 <div>
                     <P>  <span>پیشگامان،</span> همراه بدون مرز جهان آنلاین </P>
                 </div>
             </section>
-            <section class="Fourth">
+            <section class="Fourth" id="targetSection" >
                     <div>
                         <div class="cards">
                             <P class="text4">  سرویس ۱۰۰ گیگ</P>
@@ -117,7 +117,10 @@
                     </div>
                 </div>
                 <div>
-                    <button class="button4 btn alert-success error"> ثبت اطلاعات و ادامه  </button>
+                    <button class="button4 btn" id="successAlert"> ثبت اطلاعات و ادامه  </button>
+                </div>
+                <div id="alertMessage" class="alert-success">
+        
                 </div>
             </section>
         </main>
@@ -125,5 +128,6 @@
             <p class="text"> دارای مجوز UNSP به شماره ۱۰۰-۱۳۰-۱۵ در تاریخ  ۱۴۰۲/۰۵/۰۹ از سازمان تنظیم مقررات و ارتباطات رادیویی</p>
         </footer>
     </div>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
