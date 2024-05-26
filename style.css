@@ -477,6 +477,7 @@ footer p {
     .main-container .text {font-size: 0.8em;}
     .main-container .btn {font-size: 0.7em;}
     main .Fourth .cards {width: 40%;}
+    .main-container .back .header a {width: 10%;}
 }
 
 @media screen and (max-width:300px){
