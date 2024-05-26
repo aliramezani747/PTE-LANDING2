@@ -24,7 +24,7 @@ html {
 
 
 .main-container .back {
-    background-image: url(./img/Rectangle\ 2.png);
+    background-image: url(./img/Rectangle2.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -36,6 +36,11 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 3% 3% 3% 3%;
+}
+
+.main-container .back .header a {
+    margin-left: 2%;
+    width: 10%;
 }
 
 
